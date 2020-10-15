@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <table cellpadding=0 cellspacing=0 height=30>
+            <tr class="page-header">
+                <td></td>
+                <td class="header-content"><a href="profile.html">Profile</a></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table class="content" cellpadding=5>
+            <tr height=450>
+                <td>
+                    <h1 style="text-align: center;">WELCOME.</h1>
+                    <h4 style="text-align: center;">This is nothing but a small site. May you enjoy your visit.</h4>
+                    <br>
+
+                    <p style="text-align: center;">What you might want to see in this site.</p>
+
+                    
+                    <div class="slideshow-container">
+                        <div class="slide fade">
+                            <a href="hometown.html">
+                                <img src="Hometown.png" style="width:100%;">
+                                <div class="slide-text">Hometown</div>
+                            </a>
+                        </div>
+
+                        <div class="slide fade">
+                            <a href="food.html">
+                                <img src="Food.png" style="width:100%;">
+                                <div class="slide-text">Food</div>
+                            </a>
+                        </div>
+
+                        <div class="slide fade">
+                            <a href="tourist.html">
+                                <img src="Tourist.png" style="width:100%;">
+                                <div class="slide-text">Tourist</div>
+                            </a>
+                        </div>
+
+                        <a class="prev" onclick="changeSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="changeSlides(1)">&#10095;</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>

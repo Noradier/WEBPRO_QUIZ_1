@@ -1,0 +1,103 @@
+.page-header{
+    font-size: 22px;
+    vertical-align: bottom;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header-content{
+    width: 1%;
+    background-color: #324044;
+}
+
+.page-content{
+    vertical-align: top;
+    height: 360px;
+}
+
+.content{
+    background-color: #648088;
+}
+
+.slideshow-container{
+    width: 320px;
+    margin: auto;
+}
+
+.slide{
+    display: none;
+}
+
+.slide-text {
+    color: #ffffff;
+    font-size: 15px;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+.next {
+    left: 887px;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00ffff;
+}
+
+body{
+    background-image: url("icon.png");
+    background-color: #7f006f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    margin: 50px 250px 0px;
+    padding: 0px;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td{
+    border: 2px solid red;
+}
